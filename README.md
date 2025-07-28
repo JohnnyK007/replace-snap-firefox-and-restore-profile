@@ -1,6 +1,7 @@
 # 🦊 replace-snap-firefox-and-restore-profile.sh
 
-Tento skript automatizuje odstránenie Snap verzie Firefoxu a jej nahradenie `.deb` verziou z oficiálneho Mozilla PPA repozitára. Zároveň zachová tvoj pôvodný profil používateľa (záložky, doplnky, heslá atď.).
+Tento skript automatizuje odstránenie Snap verzie Firefoxu v Ubuntu Linux a jej nahradenie `.deb` verziou z oficiálneho Mozilla PPA repozitára. Zároveň zachová tvoj pôvodný profil používateľa (záložky, doplnky, heslá atď.).
+This script automates the removal of the Snap version of Firefox on Ubuntu Linux and replacing it with the `.deb` version from the official Mozilla PPA repository. It will also preserve your original user profile (bookmarks, add-ons, passwords, etc.).
 
 ---
 
@@ -77,7 +78,7 @@ Ak pôvodný `.desktop` súbor od Snapu na ploche nefunguje, môžeš ho nahradi
 
    Firefox Snap verzia 1:1snap1-*
 
-   Firefox .deb verzia 141.0+build2 z MozillaTeam PPA
+   Firefox `.deb` verzia 141.0+build2 z MozillaTeam PPA
 
 📄 Licencia
 

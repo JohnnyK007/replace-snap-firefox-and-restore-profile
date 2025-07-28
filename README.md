@@ -37,7 +37,7 @@ cd firefox-replace-script
 chmod +x replace-snap-firefox-and-restore-profile.sh
 ./replace-snap-firefox-and-restore-profile.sh
 ```
-🔁 Obnovenie profilu
+## 🔁 Obnovenie profilu
 
 Ak sa Firefox po spustení javí ako "čistá inštalácia", môžeš ručne nastaviť pôvodný profil takto:
 
@@ -62,13 +62,13 @@ StartWithLastProfile=1
 Version=2
 ```
 
-🌍 Slovenský jazyk
+## 🌍 Slovenský jazyk
 
 Ak chceš doinštalovať slovenčinu:
 
 `sudo apt install firefox-locale-sk`
 
-🖥️ Oprava spúšťača na ploche
+## 🖥️ Oprava spúšťača na ploche
 
 Ak pôvodný `.desktop` súbor od Snapu na ploche nefunguje, môžeš ho nahradiť:
 
@@ -76,7 +76,7 @@ Ak pôvodný `.desktop` súbor od Snapu na ploche nefunguje, môžeš ho nahradi
 
 `cp /usr/share/applications/firefox.desktop ~/Plocha/`   # alebo `~/Desktop/`
 
-✅ Overené na
+## ✅ Overené na
 
    Ubuntu 24.04 LTS (Noble Numbat)
 
@@ -84,11 +84,11 @@ Ak pôvodný `.desktop` súbor od Snapu na ploche nefunguje, môžeš ho nahradi
 
    Firefox `.deb` verzia 141.0+build2 z MozillaTeam PPA
 
-📄 Licencia
+## 📄 Licencia
 
 MIT License – Používaj slobodne a vylepšuj podľa potrieb.
 
-🤝 Podpora
+## 🤝 Podpora
 
 Ak skript pomohol, daj ⭐️ na GitHub a pokojne vytvor issue alebo pull request na vylepšenia.
 
